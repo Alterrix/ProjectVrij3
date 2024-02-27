@@ -3,14 +3,14 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "WorldPartition/ActorDescContainer.h"
-#include "MyActorDescContainer.generated.h"
+#include "GameFramework/CharacterMovementComponent.h"
+#include "CustomGravity.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class PROJECTVRIJ3_API UMyActorDescContainer : public UActorDescContainer
+class PROJECTVRIJ3_API UCustomGravity : public UCharacterMovementComponent
 {
 	GENERATED_BODY()
 	
